@@ -1,16 +1,105 @@
-# React + Vite
+# RTM FoodTech
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern web application for RTM FoodTech built with React and Vite. This project showcases a food technology platform with product catalog, ordering information, and job listings.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Product Catalog**: Browse and view detailed information about food products
+- **Order Guide**: Step-by-step instructions on how to place orders
+- **Contact Page**: Get in touch with the team
+- **Job Listings**: View available career opportunities
+- **Responsive Design**: Mobile-friendly interface using Tailwind CSS
+- **3D Graphics**: Interactive 3D elements with Three.js and React Three Fiber
+- **Smooth Animations**: Rich user experiences with animation libraries
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend Framework**: React 19
+- **Build Tool**: Vite 7
+- **Styling**: Tailwind CSS 4 + PostCSS
+- **Routing**: React Router DOM 7
+- **3D Graphics**: Three.js with React Three Fiber
+- **Icons**: Lucide React
+- **Animations**: React Type Animation, React CountUp
+- **Intersection Observer**: For scroll-triggered animations
+- **Linting**: ESLint
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+- Node.js (v16 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm run dev
+```
+
+4. Build for production:
+```bash
+npm run build
+```
+
+5. Preview the production build:
+```bash
+npm run preview
+```
+
+## Project Structure
+
+```
+src/
+├── components/       # Reusable React components
+│   ├── Footer.jsx
+│   ├── Hero.jsx
+│   ├── Layout.jsx
+│   ├── Navbar.jsx
+│   └── ProductCard.jsx
+├── pages/           # Page components
+│   ├── Home.jsx
+│   ├── Katalog.jsx
+│   ├── ProductDetail.jsx
+│   ├── CaraPesan.jsx
+│   ├── Kontak.jsx
+│   └── Loker.jsx
+├── data/            # Data files
+│   ├── products.js
+│   └── products.json
+├── assets/          # Static assets
+│   ├── icon/
+│   └── mesin/
+├── index.css        # Global styles
+└── main.jsx         # Application entry point
+
+content/            # Content pages
+```
+
+## Available Routes
+
+- `/` - Home page
+- `/katalog` - Product catalog
+- `/produk/:id` - Product detail page
+- `/cara-pesan` - How to order guide
+- `/kontak` - Contact page
+- `/loker` - Job listings
+
+## Development
+
+### Code Quality
+
+Run ESLint to check code quality:
+```bash
+npm run lint
+```
+
+### HMR (Hot Module Replacement)
+
+Vite provides fast HMR during development for a smooth development experience.
