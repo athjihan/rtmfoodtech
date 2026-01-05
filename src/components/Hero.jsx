@@ -8,7 +8,7 @@ import pencuciSingkong from '/images/products/pencuci singkong.jpeg';
 import rajangSingkong from '/images/products/rajang singkong.jpeg';
 import rajangTempe from '/images/products/rajang tempe.jpeg';
 import tortilla from '/images/products/tortilla.jpeg';
-import company from '/images/products/company.png';
+import company from '../assets/company.png';
 
 const HeroSection = () => {
     const navigate = useNavigate();
