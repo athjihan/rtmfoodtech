@@ -5,7 +5,7 @@
             "name": "MESIN GORENG OTOMATIS WITH AGITATOR",
             "category": "Penggoreng",
             "price": 100000000,
-            "image": "/src/assets/mesin/goreng.jpeg",
+            "image": "/images/products/goreng.jpeg",
             "description": "Automatic Batch Fryer dari RTM FOODTECH dengan sistem penggorengan otomatis menggunakan timer. Dilengkapi dengan agitator, basket otomatis, dan centrifugal oil system untuk hasil optimal.",
             "specifications": [
                 "Power: 2.5 HP 1 Phase",
@@ -30,7 +30,7 @@
             "name": "BATCH FRYER",
             "category": "Penggoreng",
             "price": 250000000,
-            "image": "/src/assets/mesin/batch fryer.jpeg",
+            "image": "/images/products/batch fryer.jpeg",
             "description": "Dengan beragam jenis snack dan keripik di pasaran, batch fryer ini dapat diatur dengan waktu penggorengan yang presisi dan pengaturan suhu hingga makanan siap diangkat secara otomatis dari batch fryer.",
             "specifications": [
                 "Daya: 2,5 HP 1 Phase",
@@ -56,7 +56,7 @@
             "name": "MESIN OTAK-OTAK",
             "category": "Pencetak",
             "price": 28000000,
-            "image": "/src/assets/mesin/otak2.jpeg",
+            "image": "/images/products/otak2.jpeg",
             "description": "Mesin cetak otak-otak ikan otomatis dengan hasil yang konsisten dan produksi tinggi. Diameter otak-otak bisa diubah sesuai keinginan dengan 2 pisau yang disertakan.",
             "specifications": [
                 "Kapasitas Produksi per Menit: 210 potong",
@@ -76,7 +76,7 @@
             "name": "MESIN CETAK BAKSO",
             "category": "Pencetak",
             "price": 31000000,
-            "image": "/src/assets/mesin/cetak bakso.jpeg",
+            "image": "/images/products/cetak bakso.jpeg",
             "description": "Mesin cetak bakso otomatis dengan hasil yang konsisten dan produksi tinggi. Diameter bakso bisa diubah sesuai keinginan dengan 2 pisau yang disertakan.",
             "specifications": [
                 "Kapasitas Produksi per Menit: 510 butir",
@@ -95,7 +95,7 @@
             "name": "MESIN TAHU BULAT",
             "category": "Pencetak",
             "price": 28000000,
-            "image": "/src/assets/mesin/tahu bulat.jpeg",
+            "image": "/images/products/tahu bulat.jpeg",
             "description": "Mesin pembuat tahu bulat otomatis dengan sistem pemotongan otomatis, hasil konsisten dan produksi tinggi. Cocok untuk industri makanan dengan kapasitas produksi hingga 13.500 butir per jam.",
             "specifications": [
                 "Ukuran Tahu: 20-30 mm",
@@ -115,7 +115,7 @@
             "name": "MESIN TORTILLA",
             "category": "Pencetak",
             "price": 38000000,
-            "image": "/src/assets/mesin/tortilla.jpeg",
+            "image": "/images/products/tortilla.jpeg",
             "description": "Mesin pembuat tortilla otomatis dengan cetakan otomatis dan berbagai bentuk (bulat, segitiga, pentagon, prisma). Sistem pemanas merata dengan produksi tinggi hingga 250kg per jam.",
             "specifications": [
                 "Nomor Model: R-TMRK14",
@@ -135,7 +135,7 @@
             "name": "MESIN PENCUCI SINGKONG",
             "category": "Pencuci",
             "price": 55000000,
-            "image": "/src/assets/mesin/pencuci singkong.jpeg",
+            "image": "/images/products/pencuci singkong.jpeg",
             "description": "Mesin pencuci singkong dan kentang otomatis yang efisien dengan sistem kontinyu. Cocok untuk industri pengolahan makanan dengan kapasitas produksi hingga 500kg per jam.",
             "specifications": [
                 "Nomor Model: P-CSWRK14",
@@ -155,7 +155,7 @@
             "name": "MESIN PENGUPAS BAWANG",
             "category": "Pencuci",
             "price": 15000000,
-            "image": "/src/assets/mesin/pengupas bawang.jpeg",
+            "image": "/images/products/pengupas bawang.jpeg",
             "description": "Mesin pengupas bawang otomatis dengan sistem yang efisien untuk mengupas bawang dalam jumlah besar. Cocok untuk industri pengolahan makanan dan restoran.",
             "specifications": [
                 "Diameter: 45 cm",
@@ -171,7 +171,7 @@
             "name": "MESIN RAJANG SINGKONG",
             "category": "Pengiris",
             "price": 45000000,
-            "image": "/src/assets/mesin/rajang singkong.jpeg",
+            "image": "/images/products/rajang singkong.jpeg",
             "description": "Mesin perajang singkong full stainless dengan hasil potongan yang seragam dan kecepatan tinggi. Dilengkapi 3 pisau stainless steel 304 dengan sistem otomatis.",
             "specifications": [
                 "Nomor Model: P-SRK15",
@@ -192,7 +192,7 @@
             "name": "MESIN RAJANG TEMPE",
             "category": "Pengiris",
             "price": 17500000,
-            "image": "/src/assets/mesin/rajang tempe.jpeg",
+            "image": "/images/products/rajang tempe.jpeg",
             "description": "Mesin pengiris tempe otomatis RTM FOODTECH dengan hasil potongan presisi dan sistem otomatis. Dilengkapi 4 pisau dengan diameter 50cm untuk hasil yang konsisten.",
             "specifications": [
                 "Nomor Model: P-TSRK14",
@@ -213,7 +213,7 @@
             "name": "MESIN PENGIRIS KERUPUK",
             "category": "Pengiris",
             "price": 35000000,
-            "image": "/src/assets/mesin/pengiris kerupuk.jpeg",
+            "image": "/images/products/pengiris kerupuk.jpeg",
             "description": "Mesin pengiris kerupuk otomatis RTM FOODTECH K-Sclicer dengan tingkat ketelitian potongan hingga 0.2mm. Dilengkapi 6 pisau stainless steel 304 untuk hasil presisi tinggi.",
             "specifications": [
                 "Nomor Model: K-SRK14",
@@ -234,7 +234,7 @@
             "name": "NYLON RANTAI MESIN BAKSO",
             "category": "Sparepart",
             "price": 35000,
-            "image": "/src/assets/mesin/nylon.jpeg",
+            "image": "/images/products/nylon.jpeg",
             "description": "Nylon rantai mesin bakso berkualitas tinggi untuk daya tahan dan performa optimal.",
             "specifications": [
                 "Jumlah: 1 pcs"
@@ -246,7 +246,7 @@
             "name": "PISAU MESIN CETAK BAKSO",
             "category": "Sparepart",
             "price": 350000,
-            "image": "/src/assets/mesin/pisau bakso.jpeg",
+            "image": "/images/products/pisau bakso.jpeg",
             "description": "Pisau khusus mesin cetak bakso RTM FOODTECH berkualitas tinggi untuk hasil cetakan yang presisi dan tahan lama. Tersedia berdasarkan pesanan untuk ukuran di bawah 25mm.",
             "specifications": [
                 "Jumlah: 1 pcs",
@@ -262,7 +262,7 @@
             "name": "PER MESIN BAKSO ",
             "category": "Sparepart",
             "price": 35000,
-            "image": "/src/assets/mesin/per.jpeg",
+            "image": "/images/products/per.jpeg",
             "description": "Per mesin bakso berkualitas tinggi untuk hasil cetakan yang presisi dan tahan lama.",
             "specifications": [
                 "Jumlah: 1 pcs",

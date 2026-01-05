@@ -2,13 +2,13 @@ import { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Star, ArrowRight } from 'lucide-react';
 
-import goreng from '../assets/mesin/goreng.jpeg';
-import otak2 from '../assets/mesin/otak2.jpeg';
-import pencuciSingkong from '../assets/mesin/pencuci singkong.jpeg';
-import rajangSingkong from '../assets/mesin/rajang singkong.jpeg';
-import rajangTempe from '../assets/mesin/rajang tempe.jpeg';
-import tortilla from '../assets/mesin/tortilla.jpeg';
-import company from '../assets/company.png';
+import goreng from '/images/products/goreng.jpeg';
+import otak2 from '/images/products/otak2.jpeg';
+import pencuciSingkong from '/images/products/pencuci singkong.jpeg';
+import rajangSingkong from '/images/products/rajang singkong.jpeg';
+import rajangTempe from '/images/products/rajang tempe.jpeg';
+import tortilla from '/images/products/tortilla.jpeg';
+import company from '/images/products/company.png';
 
 const HeroSection = () => {
     const navigate = useNavigate();
