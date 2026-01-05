@@ -1,0 +1,281 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "MESIN GORENG OTOMATIS WITH AGITATOR",
+            "category": "Penggoreng",
+            "price": 100000000,
+            "image": "/src/assets/mesin/goreng.jpeg",
+            "description": "Automatic Batch Fryer dari RTM FOODTECH dengan sistem penggorengan otomatis menggunakan timer. Dilengkapi dengan agitator, basket otomatis, dan centrifugal oil system untuk hasil optimal.",
+            "specifications": [
+                "Power: 2.5 HP 1 Phase",
+                "Dimensi: 190x150x200 cm",
+                "Kapasitas Goreng: 6-6.5 kg/batch (2.75-3 menit)",
+                "Konsumsi Gas: 12 kg/jam (5kg chips = 1kg gas)",
+                "Konsumsi Minyak: 20 kg/jam (33% berat chips)",
+                "Kapasitas Tumbler: 200-300 liter minyak (supply 40 liter)",
+                "Material Tumbler: Stainless Steel",
+                "Chassis: 60x60x6mm",
+                "Basket: Automatic 1.5 HP 1 Phase Stainless Steel",
+                "Centrifugal Oil: 1 HP 1 Phase",
+                "Agitator: 1/2 HP",
+                "Burner: Ecoflame",
+                "Material: Stainless Steel and Steel",
+                "Sistem: Automatic Frying with Timer"
+            ],
+            "inStock": false
+        },
+        {
+            "id": 2,
+            "name": "BATCH FRYER",
+            "category": "Penggoreng",
+            "price": 250000000,
+            "image": "/src/assets/mesin/batch fryer.jpeg",
+            "description": "Dengan beragam jenis snack dan keripik di pasaran, batch fryer ini dapat diatur dengan waktu penggorengan yang presisi dan pengaturan suhu hingga makanan siap diangkat secara otomatis dari batch fryer.",
+            "specifications": [
+                "Daya: 2,5 HP 1 Phase",
+                "Dimensi (P*L*T): 190*150*200cm",
+                "Kapasitas Goreng: 6kg-6,5kg Sekali (2,75 hingga 3 menit)",
+                "Penggunaan Gas: 12kg per Jam (berdasarkan output) - Rata-rata 5kg Keripik butuh 1kg Gas",
+                "Konsumsi Minyak Goreng: 20kg per jam (berdasarkan output) dalam rata-rata 33% berat keripik",
+                "Kapasitas Tumbler: 200kg-300kg minyak dengan kapasitas supply 40 liter",
+                "Material Tumbler: Stainless Steel KWL (304)",
+                "Rangka: 60x60x6mm",
+                "Keranjang: Otomatis 1,5 HP 1 Phase Stainless Steel 304",
+                "Atribut: Centrifugal Oil 1 HP 1 Phase",
+                "Burner: Ecoflam BLU 170",
+                "Material: Stainless Steel dan Solid Steel",
+                "Jumlah Pesanan Minimal: 1 Set/Sets",
+                "Kemampuan Supply: 10 Set/Sets per Bulan",
+                "Garansi: 12 bulan"
+            ],
+            "inStock": false
+        },
+        {
+            "id": 3,
+            "name": "MESIN OTAK-OTAK",
+            "category": "Pencetak",
+            "price": 28000000,
+            "image": "/src/assets/mesin/otak2.jpeg",
+            "description": "Mesin cetak otak-otak ikan otomatis dengan hasil yang konsisten dan produksi tinggi. Diameter otak-otak bisa diubah sesuai keinginan dengan 2 pisau yang disertakan.",
+            "specifications": [
+                "Kapasitas Produksi per Menit: 210 potong",
+                "Kapasitas Produksi per Jam: 12.600 potong",
+                "Dimensi (P*L*T): 85*60*130 cm",
+                "Daya Motor: 1 Horse Power (HP)",
+                "Kapasitas Tumbler Sekali Masuk: 5-6kg Bahan Otak-Otak",
+                "Material: Stainless Steel",
+                "Diameter Otak-Otak: Bisa diubah sesuai keinginan",
+                "Pisau: 2 pisau lebih awet disertakan",
+                "Hasil: Cetakan sempurna dan mempunyai berat yang sama"
+            ],
+            "inStock": true
+        },
+        {
+            "id": 4,
+            "name": "MESIN CETAK BAKSO",
+            "category": "Pencetak",
+            "price": 31000000,
+            "image": "/src/assets/mesin/cetak bakso.jpeg",
+            "description": "Mesin cetak bakso otomatis dengan hasil yang konsisten dan produksi tinggi. Diameter bakso bisa diubah sesuai keinginan dengan 2 pisau yang disertakan.",
+            "specifications": [
+                "Kapasitas Produksi per Menit: 510 butir",
+                "Kapasitas Produksi per Jam: 30.000 butir",
+                "Dimensi (P*L*T): 85*60*130 cm",
+                "Daya Motor: 1 Horse Power (HP)",
+                "Material: Stainless Steel",
+                "Diameter Bakso: Bisa diubah sesuai keinginan",
+                "Pisau: 2 pisau lebih awet disertakan",
+                "Hasil: Cetakan bakso lebih bulat dan mempunyai berat yang sama"
+            ],
+            "inStock": true
+        },
+        {
+            "id": 5,
+            "name": "MESIN TAHU BULAT",
+            "category": "Pencetak",
+            "price": 28000000,
+            "image": "/src/assets/mesin/tahu bulat.jpeg",
+            "description": "Mesin pembuat tahu bulat otomatis dengan sistem pemotongan otomatis, hasil konsisten dan produksi tinggi. Cocok untuk industri makanan dengan kapasitas produksi hingga 13.500 butir per jam.",
+            "specifications": [
+                "Ukuran Tahu: 20-30 mm",
+                "Kapasitas per Menit: 225 butir",
+                "Kapasitas per Jam: 13.500 butir",
+                "Dimensi (P*L*T): 85*60*130 cm",
+                "Daya Motor: 1 Horse Power (HP)",
+                "Material: Stainless Steel dan Steel",
+                "Sistem: Pemotongan Otomatis",
+                "Kapasitas Produksi: 10 Set/Sets per Bulan",
+                "Garansi Produk: 12 bulan"
+            ],
+            "inStock": true
+        },
+        {
+            "id": 6,
+            "name": "MESIN TORTILLA",
+            "category": "Pencetak",
+            "price": 38000000,
+            "image": "/src/assets/mesin/tortilla.jpeg",
+            "description": "Mesin pembuat tortilla otomatis dengan cetakan otomatis dan berbagai bentuk (bulat, segitiga, pentagon, prisma). Sistem pemanas merata dengan produksi tinggi hingga 250kg per jam.",
+            "specifications": [
+                "Nomor Model: R-TMRK14",
+                "Bentuk: Bulat, Segitiga, Pentagon dan Prisma",
+                "Voltage: 220v",
+                "Daya: 1 HP",
+                "Dimensi (P*L*T): 200*80*90 cm",
+                "Kapasitas: 100-250 kg/jam",
+                "Material: Stainless Steel dan Solid Steel",
+                "Sistem: Otomatis",
+                "Garansi: 12 bulan"
+            ],
+            "inStock": false
+        },
+        {
+            "id": 7,
+            "name": "MESIN PENCUCI SINGKONG",
+            "category": "Pencuci",
+            "price": 55000000,
+            "image": "/src/assets/mesin/pencuci singkong.jpeg",
+            "description": "Mesin pencuci singkong dan kentang otomatis yang efisien dengan sistem kontinyu. Cocok untuk industri pengolahan makanan dengan kapasitas produksi hingga 500kg per jam.",
+            "specifications": [
+                "Nomor Model: P-CSWRK14",
+                "Voltage: 220v",
+                "Daya: 1 HP",
+                "Dimensi (P*L*T): 350*50*75 cm",
+                "Kapasitas Produksi Mesin: 500 kg/jam",
+                "Material: Stainless Steel dan Solid Steel",
+                "Penggerak: Motor Listrik",
+                "Kapasitas Produksi: 60 Set/Sets per Bulan",
+                "Garansi Produk: 12 bulan"
+            ],
+            "inStock": false
+        },
+        {
+            "id": 8,
+            "name": "MESIN PENGUPAS BAWANG",
+            "category": "Pencuci",
+            "price": 15000000,
+            "image": "/src/assets/mesin/pengupas bawang.jpeg",
+            "description": "Mesin pengupas bawang otomatis dengan sistem yang efisien untuk mengupas bawang dalam jumlah besar. Cocok untuk industri pengolahan makanan dan restoran.",
+            "specifications": [
+                "Diameter: 45 cm",
+                "Tinggi: 40 cm",
+                "Kapasitas: 150-200 kg per jam",
+                "Material: Stainless Steel",
+                "Daya: 1 HP"
+            ],
+            "inStock": false
+        },
+        {
+            "id": 9,
+            "name": "MESIN RAJANG SINGKONG",
+            "category": "Pengiris",
+            "price": 45000000,
+            "image": "/src/assets/mesin/rajang singkong.jpeg",
+            "description": "Mesin perajang singkong full stainless dengan hasil potongan yang seragam dan kecepatan tinggi. Dilengkapi 3 pisau stainless steel 304 dengan sistem otomatis.",
+            "specifications": [
+                "Nomor Model: P-SRK15",
+                "Tipe: Pengiris Otomatis",
+                "Voltage: 220v",
+                "Daya: 1/2 HP Elektrik",
+                "Pisau: 3 pisau dengan diameter piringan 40 cm stainless steel 1,2 mm 304",
+                "Dimensi (P*L*T): 80*50*85 cm",
+                "Kapasitas Produksi Mesin: 150 kg/jam",
+                "Material: Stainless Steel dan Steel",
+                "Penggerak: Motor Listrik",
+                "Garansi Produk: 12 bulan"
+            ],
+            "inStock": true
+        },
+        {
+            "id": 10,
+            "name": "MESIN RAJANG TEMPE",
+            "category": "Pengiris",
+            "price": 17500000,
+            "image": "/src/assets/mesin/rajang tempe.jpeg",
+            "description": "Mesin pengiris tempe otomatis RTM FOODTECH dengan hasil potongan presisi dan sistem otomatis. Dilengkapi 4 pisau dengan diameter 50cm untuk hasil yang konsisten.",
+            "specifications": [
+                "Nomor Model: P-TSRK14",
+                "Model: T-Sclicer",
+                "Tipe: Pemotongan Otomatis",
+                "Voltage: 220v",
+                "Daya: 0,5 HP",
+                "Pisau: 4 pisau dengan diameter 50 cm",
+                "Dimensi (P*L*T): 70*60*80 cm",
+                "Kapasitas: 50-150 kg/jam",
+                "Material: Stainless Steel dan Solid Steel",
+                "Sistem: Otomatis"
+            ],
+            "inStock": true
+        },
+        {
+            "id": 11,
+            "name": "MESIN PENGIRIS KERUPUK",
+            "category": "Pengiris",
+            "price": 35000000,
+            "image": "/src/assets/mesin/pengiris kerupuk.jpeg",
+            "description": "Mesin pengiris kerupuk otomatis RTM FOODTECH K-Sclicer dengan tingkat ketelitian potongan hingga 0.2mm. Dilengkapi 6 pisau stainless steel 304 untuk hasil presisi tinggi.",
+            "specifications": [
+                "Nomor Model: K-SRK14",
+                "Tingkat Ketelitian Potongan: 0.2mm",
+                "Voltage: 220v",
+                "Daya: 1/2 HP",
+                "Pisau: 6 pisau dengan diameter piringan 50 cm stainless steel 1,2 mm 304",
+                "Dimensi (P*L*T): 70*60*80 cm",
+                "Kapasitas Produksi Mesin: 150 kg/jam",
+                "Material: Stainless Steel dan Steel",
+                "Penggerak: Motor Listrik",
+                "Garansi Produk: 12 bulan"
+            ],
+            "inStock": false
+        },
+        {
+            "id": 12,
+            "name": "NYLON RANTAI MESIN BAKSO",
+            "category": "Sparepart",
+            "price": 35000,
+            "image": "/src/assets/mesin/nylon.jpeg",
+            "description": "Nylon rantai mesin bakso berkualitas tinggi untuk daya tahan dan performa optimal.",
+            "specifications": [
+                "Jumlah: 1 pcs"
+            ],
+            "inStock": true
+        },
+        {
+            "id": 13,
+            "name": "PISAU MESIN CETAK BAKSO",
+            "category": "Sparepart",
+            "price": 350000,
+            "image": "/src/assets/mesin/pisau bakso.jpeg",
+            "description": "Pisau khusus mesin cetak bakso RTM FOODTECH berkualitas tinggi untuk hasil cetakan yang presisi dan tahan lama. Tersedia berdasarkan pesanan untuk ukuran di bawah 25mm.",
+            "specifications": [
+                "Jumlah: 1 pcs",
+                "Tipe: Pisau Khusus Mesin RTM FOODTECH",
+                "Ukuran: By Request (di bawah 25mm)",
+                "Catatan: Menggunakan nylon plus 10k",
+                "Material: Stainless Steel"
+            ],
+            "inStock": true
+        },
+        {
+            "id": 14,
+            "name": "PER MESIN BAKSO ",
+            "category": "Sparepart",
+            "price": 35000,
+            "image": "/src/assets/mesin/per.jpeg",
+            "description": "Per mesin bakso berkualitas tinggi untuk hasil cetakan yang presisi dan tahan lama.",
+            "specifications": [
+                "Jumlah: 1 pcs",
+                "Per Serp KHUSUS MESIN BAKSO PRODUKSI RTM FOODTECH"
+            ],
+            "inStock": true
+        }
+    ],
+    "categories": [
+        "Semua",
+        "Penggoreng",
+        "Pencetak",
+        "Pengiris",
+        "Sparepart"
+    ]
+}
