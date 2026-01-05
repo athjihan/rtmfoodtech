@@ -2,6 +2,8 @@
 
 A modern web application for RTM FoodTech built with React and Vite. This project showcases a food technology platform with product catalog, ordering information, and job listings.
 
+🌐 **Live Demo**: [https://rtmfoodtech.vercel.app/](https://rtmfoodtech.vercel.app/)
+
 ## Features
 
 - **Product Catalog**: Browse and view detailed information about food products
@@ -9,7 +11,6 @@ A modern web application for RTM FoodTech built with React and Vite. This projec
 - **Contact Page**: Get in touch with the team
 - **Job Listings**: View available career opportunities
 - **Responsive Design**: Mobile-friendly interface using Tailwind CSS
-- **3D Graphics**: Interactive 3D elements with Three.js and React Three Fiber
 - **Smooth Animations**: Rich user experiences with animation libraries
 
 ## Tech Stack
@@ -18,7 +19,6 @@ A modern web application for RTM FoodTech built with React and Vite. This projec
 - **Build Tool**: Vite 7
 - **Styling**: Tailwind CSS 4 + PostCSS
 - **Routing**: React Router DOM 7
-- **3D Graphics**: Three.js with React Three Fiber
 - **Icons**: Lucide React
 - **Animations**: React Type Animation, React CountUp
 - **Intersection Observer**: For scroll-triggered animations
@@ -103,3 +103,9 @@ npm run lint
 ### HMR (Hot Module Replacement)
 
 Vite provides fast HMR during development for a smooth development experience.
+
+## Deployment
+
+This project is deployed on **Vercel**. Every push to the main branch automatically triggers a new deployment.
+
+**Live URL**: [https://rtmfoodtech.vercel.app/](https://rtmfoodtech.vercel.app/)

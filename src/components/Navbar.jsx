@@ -94,11 +94,6 @@ const Navbar = () => {
                         <a href="/cara-pesan" className={`transition-colors py-2 text-lg ${location.pathname === '/cara-pesan' ? 'text-white' : 'text-gray-400 hover:text-white'}`}>Cara Pesan</a>
                         <a href="/kontak" className={`transition-colors py-2 text-lg ${location.pathname === '/kontak' ? 'text-white' : 'text-gray-400 hover:text-white'}`}>Kontak</a>
                         <a href="/loker" className={`transition-colors py-2 text-lg ${location.pathname === '/loker' ? 'text-white' : 'text-gray-400 hover:text-white'}`}>Loker</a>
-                        <button className="border border-gray-700 hover:border-amber-400 px-6 py-2 rounded-full text-sm font-semibold transition-all duration-300 active:scale-95 bg-transparent mt-2">
-                            <span className="bg-linear-to-r from-amber-400 to-white bg-clip-text text-transparent">
-                                Hubungi
-                            </span>
-                        </button>
                     </div>
                 </div>
             )}

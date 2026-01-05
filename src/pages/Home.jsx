@@ -92,8 +92,8 @@ const StatsSection = () => {
 
                 <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-2 mt-20 leading-tight relative">
                     <span className="relative inline-block">
-                        <span className="absolute inset-0 bg-linear-to-r from-pink-900 to-amber-600 blur-lg opacity-20"></span>
-                        <span className="relative bg-linear-to-r from-pink-900 to-amber-600 bg-clip-text text-transparent drop-shadow-2xl">
+                        <span className="absolute inset-0 bg-black blur-lg opacity-20"></span>
+                        <span className="relative bg-black bg-clip-text text-transparent drop-shadow-2xl">
                             <TypeAnimation
                                 sequence={[
                                     'Anda adalah pengguna berikutnya!',
