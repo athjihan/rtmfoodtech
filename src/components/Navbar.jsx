@@ -12,13 +12,11 @@ const Navbar = () => {
     const handleSmoothScroll = (e, targetId) => {
         e.preventDefault();
 
-        // Jika tidak di home page, navigate ke home dengan hash
         if (location.pathname !== '/') {
             navigate('/#' + targetId);
             return;
         }
 
-        // Jika sudah di home page, scroll langsung
         const element = document.getElementById(targetId);
         if (element) {
             const navbarHeight = 80;

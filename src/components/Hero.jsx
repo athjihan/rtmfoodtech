@@ -36,7 +36,7 @@ const HeroSection = () => {
     };
 
     const startAutoPlay = () => {
-        stopAutoPlay(); // Clear any existing interval
+        stopAutoPlay();
         autoPlayRef.current = setInterval(() => {
             setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
         }, 3000);
@@ -47,7 +47,6 @@ const HeroSection = () => {
         return () => stopAutoPlay();
     },);
 
-    // Touch handlers for swipe
     const handleTouchStart = (e) => {
         setTouchStart(e.targetTouches[0].clientX);
         setIsDragging(true);
@@ -64,12 +63,10 @@ const HeroSection = () => {
         if (!isDragging) return;
 
         if (touchStart - touchEnd > 75) {
-            // Swipe left - next
             setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
         }
 
         if (touchStart - touchEnd < -75) {
-            // Swipe right - previous
             setCurrentIndex((prevIndex) =>
                 prevIndex === 0 ? images.length - 1 : prevIndex - 1
             );
@@ -78,10 +75,9 @@ const HeroSection = () => {
         setTouchStart(0);
         setTouchEnd(0);
         setIsDragging(false);
-        startAutoPlay(); // Resume autoplay after swipe
+        startAutoPlay();
     };
 
-    // Mouse handlers for desktop drag
     const handleMouseDown = (e) => {
         e.preventDefault();
         setTouchStart(e.clientX);
