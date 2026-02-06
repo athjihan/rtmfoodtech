@@ -89,25 +89,6 @@ const StatsSection = () => {
                     <CounterStat end={1000} suffix="+" label="Mesin Terjual" />
                     <CounterStat end={10} suffix="+" label="Tahun Pengalaman" />
                 </div>
-
-                <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-2 mt-20 leading-tight relative">
-                    <span className="relative inline-block">
-                        <span className="absolute inset-0 bg-black blur-lg opacity-20"></span>
-                        <span className="relative bg-black bg-clip-text text-transparent drop-shadow-2xl">
-                            <TypeAnimation
-                                sequence={[
-                                    'Anda adalah pengguna berikutnya!',
-                                    2000,
-                                    'Tingkatkan produktivitas Anda dengan mesin kami!',
-                                    2000,
-                                ]}
-                                wrapper="span"
-                                speed={50}
-                                repeat={Infinity}
-                            />
-                        </span>
-                    </span>
-                </h2>
             </div>
         </section>
     );
@@ -117,7 +98,6 @@ const Home = () => {
     const location = useLocation();
 
     useEffect(() => {
-        // Handle scroll ke section jika ada hash di URL
         if (location.hash) {
             const id = location.hash.replace('#', '');
             setTimeout(() => {
@@ -132,7 +112,7 @@ const Home = () => {
                         behavior: 'smooth'
                     });
                 }
-            }, 100); // Delay untuk memastikan DOM sudah render
+            }, 100);
         }
     }, [location]);
 
