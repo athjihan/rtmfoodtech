@@ -69,9 +69,9 @@ function CaraPesan() {
                         return (
                             <AnimatedCard key={index} delay={index * 120}>
                                 <div
-                                    className="step-card bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-shadow duration-300 border-t-4 border-blue-700 w-full h-full flex flex-col items-center text-center"
+                                    className="step-card bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-shadow duration-300 border-t-4 border-amber-500 w-full h-full flex flex-col items-center text-center"
                                 >
-                                    <div className="w-20 h-20 bg-blue-700 rounded-full flex items-center justify-center mb-6">
+                                    <div className="w-20 h-20 bg-black rounded-full flex items-center justify-center mb-6">
                                         <Icon className="w-10 h-10 text-white" />
                                     </div>
                                     <h3 className="text-xl font-bold text-gray-900 mb-4">
@@ -94,10 +94,10 @@ function CaraPesan() {
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                         {/* Kantor & Workshop */}
-                        <div className="border-2 border-blue-700 rounded-lg p-6 hover:bg-blue-100 transition-colors">
+                        <div className="border-2 border-black rounded-lg p-6 hover:bg-amber-100 transition-colors">
                             <div className="flex flex-col items-center text-center">
-                                <MapPin className="w-12 h-12 text-blue-700 mb-4" />
-                                <h3 className="text-xl font-bold text-blue-700 mb-3">Kantor & Workshop</h3>
+                                <MapPin className="w-12 h-12 text-amber-400 mb-4" />
+                                <h3 className="text-xl font-bold text-black mb-3">Kantor & Workshop</h3>
                                 <p className="text-gray-800 text-xl leading-relaxed">
                                     Jl. Blabak - Mendut No.KM.01, RT.04/RW.02, Panjangan, Mungkid, Kec. Mungkid, Kabupaten Magelang, Jawa Tengah 56512
                                 </p>
@@ -105,13 +105,13 @@ function CaraPesan() {
                         </div>
 
                         {/* Call Center */}
-                        <div className="border-2 border-blue-700 rounded-lg p-6 hover:bg-blue-100 transition-colors">
+                        <div className="border-2 border-black rounded-lg p-6 hover:bg-amber-100 transition-colors">
                             <div className="flex flex-col items-center text-center">
-                                <Phone className="w-12 h-12 text-blue-700 mb-4" />
-                                <h3 className="text-xl font-bold text-blue-700 mb-3">Call Center</h3>
+                                <Phone className="w-12 h-12 text-amber-400 mb-4" />
+                                <h3 className="text-xl font-bold text-black mb-3">Call Center</h3>
                                 <a
                                     href="tel:+6281328133337"
-                                    className="text-gray-800 text-2xl font-semibold hover:text-blue-700 transition-colors"
+                                    className="text-gray-800 text-2xl font-semibold hover:text-amber-400 transition-colors"
                                 >
                                     0813-2813-3337
                                 </a>
@@ -120,15 +120,15 @@ function CaraPesan() {
                         </div>
 
                         {/* Jam Operasional */}
-                        <div className="border-2 border-blue-700 rounded-lg p-6 hover:bg-blue-100 transition-colors">
+                        <div className="border-2 border-black rounded-lg p-6 hover:bg-amber-100 transition-colors">
                             <div className="flex flex-col items-center text-center">
-                                <Clock className="w-12 h-12 text-blue-700 mb-4" />
-                                <h3 className="text-xl font-bold text-blue-700 mb-3">Jam Operasional</h3>
+                                <Clock className="w-12 h-12 text-amber-400 mb-4" />
+                                <h3 className="text-xl font-bold text-black mb-3">Jam Operasional</h3>
                                 <p className="text-gray-800 text-xl">
                                     Senin - Sabtu<br />
                                     08.00 - 16.30 WIB
                                 </p>
-                                <p className="text-blue-700 font-semibold mt-2 text-xl">Minggu Tutup</p>
+                                <p className="text-red-600 font-semibold mt-2 text-xl">Minggu Tutup</p>
                             </div>
                         </div>
                     </div>

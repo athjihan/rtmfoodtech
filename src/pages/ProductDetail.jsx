@@ -13,7 +13,7 @@ function ProductDetail() {
                     <h2 className="text-2xl font-bold text-gray-800 mb-4">Produk tidak ditemukan</h2>
                     <button
                         onClick={() => navigate('/katalog')}
-                        className="bg-blue-700 hover:bg-blue-700 text-white px-6 py-2 rounded-lg"
+                        className="bg-black hover:bg-amber-600 text-white px-6 py-2 rounded-lg"
                     >
                         Kembali ke Katalog
                     </button>
@@ -29,13 +29,13 @@ function ProductDetail() {
                 <nav className="mb-8">
                     <ol className="flex items-center space-x-2 text-sm">
                         <li>
-                            <button onClick={() => navigate('/')} className="text-blue-700 hover:text-blue-800">
+                            <button onClick={() => navigate('/')} className="text-black hover:text-amber-600">
                                 Home
                             </button>
                         </li>
                         <li className="text-gray-400">/</li>
                         <li>
-                            <button onClick={() => navigate('/katalog')} className="text-blue-700 hover:text-blue-800">
+                            <button onClick={() => navigate('/katalog')} className="text-black hover:text-amber-600">
                                 Katalog
                             </button>
                         </li>
@@ -70,7 +70,7 @@ function ProductDetail() {
                         {/* Info Section */}
                         <div className="space-y-6">
                             <div>
-                                <span className="inline-block bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium mb-3">
+                                <span className="inline-block bg-amber-100 text-black px-3 py-1 rounded-full text-sm font-medium mb-3">
                                     {product.category}
                                 </span>
                                 <h1 className="text-3xl font-bold text-gray-900 mb-4">
@@ -83,7 +83,7 @@ function ProductDetail() {
 
                             {/* Price */}
                             <div className="border-t border-b">
-                                <p className="text-4xl font-bold text-blue-700">
+                                <p className="text-4xl font-bold text-black">
                                     {formatPrice(product.price)}
                                 </p>
                             </div>
@@ -94,7 +94,7 @@ function ProductDetail() {
                                 <ul className="space-y-3">
                                     {product.specifications.map((spec, index) => (
                                         <li key={index} className="flex items-start">
-                                            <span className="text-blue-700 mr-3 mt-1 text-lg">✓</span>
+                                            <span className="text-amber-600 mr-3 mt-1 text-lg">✓</span>
                                             <span className="text-gray-700 text-lg">{spec}</span>
                                         </li>
                                     ))}
@@ -111,7 +111,7 @@ function ProductDetail() {
                                 </button>
                                 <button
                                     onClick={() => navigate('/cara-pesan')}
-                                    className="flex-1  bg-blue-700 hover:bg-blue-700 px-8 py-4 rounded-lg font-semibold transition-colors duration-200"
+                                    className="flex-1  bg-black hover:bg-amber-600 text-white px-8 py-4 rounded-lg font-semibold transition-colors duration-200"
                                 >
                                     Cara Pesan
                                 </button>

@@ -52,7 +52,7 @@ function Katalog() {
                         placeholder="Cari mesin..."
                         value={searchQuery}
                         onChange={(e) => setSearchQuery(e.target.value)}
-                        className="w-full text-black text-xl px-6 py-3 pr-12 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent"
+                        className="w-full text-black text-xl px-6 py-3 pr-12 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:border-transparent"
                     />
                     {searchQuery && (
                         <button
@@ -72,7 +72,7 @@ function Katalog() {
                             key={category}
                             onClick={() => handleCategoryChange(category)}
                             className={`px-6 py-2 rounded-full font-semibold transition-all duration-200 focus:outline-none focus:ring-0 ${selectedCategory === category
-                                ? 'bg-blue-700 text-white shadow-lg scale-105'
+                                ? 'bg-black text-white shadow-lg scale-105'
                                 : 'bg-white text-gray-700 hover:bg-gray-100 shadow'
                                 }`}
                         >
@@ -116,7 +116,7 @@ function Katalog() {
                         <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
                             <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
                         </svg>
-                        Kunjungi Toko Tokopedia Kami
+                        Kunjungi Tokopedia Kami
                     </a>
                 </div>
             </div>

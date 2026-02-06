@@ -148,7 +148,7 @@ const HeroSection = () => {
                     <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 pt-2 sm:pt-4">
                         <button
                             onClick={() => navigate('/katalog')}
-                            className="bg-slate-900 text-white px-8 py-4 rounded-lg text-lg font-bold flex items-center justify-center gap-3 hover:bg-slate-800 transition-all shadow-lg hover:shadow-xl hover:-translate-y-1"
+                            className="bg-black text-white px-8 py-4 rounded-lg text-lg font-bold flex items-center justify-center gap-3 hover:bg-black transition-all shadow-lg hover:shadow-xl hover:-translate-y-1 hover:text-amber-400"
                         >
                             Lihat Produk
                             <ArrowRight className="w-5 h-5" />
@@ -185,15 +185,15 @@ const HeroSection = () => {
                         {/* Card Body */}
                         <div className="p-4 sm:p-6 bg-white relative">
 
-                            {/* Blue Badge */}
+                            {/* Accent Badge */}
                             <div className="absolute top-6 right-6 z-20">
-                                <div className="bg-blue-700 w-10 h-10 sm:w-12 sm:h-12 rounded-lg flex items-center justify-center shadow-lg text-white">
+                                <div className="bg-amber-500 w-10 h-10 sm:w-12 sm:h-12 rounded-lg flex items-center justify-center shadow-lg text-white">
                                     <ShieldCheck className="w-5 h-5 sm:w-6 sm:h-6" />
                                 </div>
                             </div>
 
                             {/* Image Area */}
-                            <div className="w-full aspect-[4/3] relative rounded-xl overflow-hidden bg-gray-50 mb-6 border border-slate-100">
+                            <div className="w-full aspect-4/3 relative rounded-xl overflow-hidden bg-gray-50 mb-6 border border-slate-100">
                                 {products.map((product, index) => (
                                     <img
                                         key={index}
@@ -217,27 +217,9 @@ const HeroSection = () => {
                                     </h3>
                                 </div>
 
-                                <button className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-slate-100 flex items-center justify-center text-slate-600 hover:bg-slate-200 transition-colors">
-                                    <Settings className="w-5 h-5 sm:w-6 sm:h-6" />
-                                </button>
+
                             </div>
                         </div>
-                    </div>
-
-                    {/* Carousel Indicators */}
-                    <div className="flex justify-center gap-2 mt-8">
-                        {products.map((_, idx) => (
-                            <button
-                                key={idx}
-                                onClick={() => {
-                                    setCurrentIndex(idx);
-                                    stopAutoPlay();
-                                }}
-                                className={`h-2 transition-all duration-300 rounded-full ${idx === currentIndex ? 'w-8 bg-slate-900' : 'w-2 bg-slate-300'
-                                    }`}
-                                aria-label={`Go to slide ${idx + 1}`}
-                            />
-                        ))}
                     </div>
                 </div>
             </main>

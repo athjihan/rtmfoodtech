@@ -42,7 +42,7 @@ function ProductCard({ product }) {
                     <ul className="text-lg text-gray-600 space-y-1">
                         {product.specifications.slice(0, 2).map((spec, index) => (
                             <li key={index} className="flex items-start">
-                                <span className="text-blue-500 mr-2">•</span>
+                                <span className="text-amber-500 mr-2">•</span>
                                 {spec}
                             </li>
                         ))}
@@ -52,14 +52,14 @@ function ProductCard({ product }) {
                 {/* Price and Button*/}
                 <div className="border-t mt-auto pt-4 flex items-center justify-between">
                     <div>
-                        <p className="text-2xl font-bold text-blue-700">
+                        <p className="text-2xl font-bold text-black">
                             {formatPrice(product.price)}
                         </p>
                     </div>
 
                     <button
                         onClick={() => navigate(`/produk/${product.id}`)}
-                        className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg font-semibold transition-colors duration-200"
+                        className="bg-black hover:bg-amber-600 text-white px-6 py-2 rounded-lg font-semibold transition-colors duration-200"
                     >
                         Detail
                     </button>

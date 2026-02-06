@@ -4,9 +4,9 @@ function Kontak() {
     return (
         <div className="min-h-screen bg-white pt-20">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-                <div className="mb-12">
-                    <h1 className="text-5xl md:text-6xl font-bold text-blue-700 mb-6">RTMFOODTECH</h1>
-                    <div className="space-y-4 text-gray-700 text-xl md:text-2xl leading-relaxed">
+                <div className="mb-10">
+                    <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-black mb-4">RTMFOODTECH</h1>
+                    <div className="space-y-3 text-gray-700 text-base sm:text-lg leading-relaxed">
                         <p>
                             Hubungi kami untuk informasi lebih lanjut mengenai produk mesin pemrosesan makanan berkualitas tinggi.
                         </p>
@@ -17,38 +17,38 @@ function Kontak() {
                     <div className="space-y-8">
                         <div className="flex gap-4">
                             <div className="shrink-0">
-                                <MapPin className="w-7 h-7 text-blue-700" />
+                                <MapPin className="w-6 h-6 text-amber-600" />
                             </div>
                             <div>
-                                <h3 className="font-semibold text-gray-900 mb-2 text-2xl">Alamat</h3>
-                                <p className="text-gray-800 leading-relaxed text-xl">
+                                <h3 className="font-semibold text-gray-900 mb-2 text-xl sm:text-2xl">Alamat</h3>
+                                <p className="text-gray-800 leading-relaxed text-base sm:text-lg">
                                     Jl. Blabak - Mendut No.KM.01, RT.04/RW.02, Panjangan, Mungkid, Kec. Mungkid, Kabupaten Magelang, Jawa Tengah 56512
                                 </p>
                             </div>
                         </div>
 
                         <div className="space-y-4">
-                            <h3 className="font-semibold text-gray-900 text-2xl">Kontak Kami</h3>
-                            <div className="space-y-3">
+                            <h3 className="font-semibold text-gray-900 text-xl sm:text-2xl">Kontak Kami</h3>
+                            <div className="space-y-4">
                                 <div className="flex gap-4 items-start">
                                     <div className="shrink-0">
-                                        <Phone className="w-7 h-7 text-blue-700" />
+                                        <Phone className="w-6 h-6 text-amber-600" />
                                     </div>
                                     <div>
-                                        <p className="text-gray-800 font-medium text-xl">Pemesanan</p>
-                                        <a href="tel:+6281328133337" className="text-blue-700 hover:text-blue-800 text-2xl font-semibold">
+                                        <p className="text-gray-800 font-medium text-base sm:text-lg">Pemesanan</p>
+                                        <a href="tel:+6281328133337" className="text-black hover:text-amber-600 text-lg sm:text-xl font-semibold">
                                             +62 813-2813-3337 (telepon)
                                         </a>
-                                        <p className="text-xl text-gray-600 mt-1">*Mohon untuk menghubungi via telepon, bukan WhatsApp call</p>
+                                        <p className="text-sm sm:text-base text-gray-600 mt-1">*Mohon untuk menghubungi via telepon, bukan WhatsApp call</p>
                                     </div>
                                 </div>
                                 <div className="flex gap-4 items-start">
                                     <div className="shrink-0">
-                                        <Phone className="w-7 h-7 text-blue-700" />
+                                        <Phone className="w-6 h-6 text-amber-600" />
                                     </div>
                                     <div>
-                                        <p className="text-gray-800 font-medium text-xl">Pembayaran</p>
-                                        <a href="https://wa.me/6287887133337" target="_blank" rel="noopener noreferrer" className="text-blue-700 hover:text-blue-700 text-2xl font-semibold">
+                                        <p className="text-gray-800 font-medium text-base sm:text-lg">Pembayaran</p>
+                                        <a href="https://wa.me/6287887133337" target="_blank" rel="noopener noreferrer" className="text-black hover:text-amber-600 text-lg sm:text-xl font-semibold">
                                             +62 878-8713-3337 (WA)
                                         </a>
                                     </div>
@@ -56,14 +56,14 @@ function Kontak() {
                             </div>
                         </div>
 
-                        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-700">
-                            <div className="flex gap-4 mb-4">
-                                <Clock className="w-7 h-7 text-blue-700 shrink-0" />
-                                <h3 className="text-2xl font-semibold text-gray-900">Jam Operasional</h3>
+                        <div className="bg-amber-50 p-6 rounded-lg border-l-4 border-black">
+                            <div className="flex gap-4 mb-3">
+                                <Clock className="w-6 h-6 text-amber-600 shrink-0" />
+                                <h3 className="text-xl sm:text-2xl font-semibold text-gray-900">Jam Operasional</h3>
                             </div>
                             <div className="ml-10 space-y-2 text-gray-800">
-                                <p className="text-xl">Senin - Sabtu (08.00 - 16.30 WIB)</p>
-                                <p className="font-semibold text-red-600 text-xl">Minggu tutup</p>
+                                <p className="text-base sm:text-lg">Senin - Sabtu (08.00 - 16.30 WIB)</p>
+                                <p className="font-semibold text-red-600 text-base sm:text-lg">Minggu tutup</p>
                             </div>
                         </div>
                     </div>
@@ -85,7 +85,7 @@ function Kontak() {
                             onClick={() => window.open("https://maps.app.goo.gl/o3sCr3YmSxcBGox19", "_blank")}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="inline-block bg-blue-700 text-white px-8 py-4 rounded-lg hover:bg-blue-700 transition-colors font-semibold text-xl"
+                            className="inline-block bg-black text-white px-8 py-3 rounded-lg hover:bg-amber-600 transition-colors font-semibold text-base sm:text-lg"
                         >
                             Lihat di Google Maps
                         </button>
